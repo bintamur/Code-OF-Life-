@@ -2,8 +2,9 @@
  After this, calculate the student's average
   considering that grade A has weight 3.5 and B has weight 7.5.
   Each grade can be from zero to ten, always with one digit after the decimal point.
-  Don’t forget to print the end of line after the result, otherwise you will receive “Presentation Error”.
-   Don’t forget the space before and after the equal sign.*/
+  Donâ€™t forget to print the end of line after the result, otherwise you will receive â€œPresentation Errorâ€.
+   Donâ€™t forget the space before and after the equal sign.
+   weighted Average means (acheved gpa multiply with credit) then devide by total credit */
 #include<stdio.h>
 int main()
 {
