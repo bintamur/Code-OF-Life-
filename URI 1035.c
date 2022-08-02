@@ -7,7 +7,7 @@ int main()
     sum1=(a+b);
  if(b>c && d>a && sum2>sum1 && c>0 && d>0 && a%2==0)
     {
-        printf("Valores  aceitos\n");
+        printf("Valores aceitos\n");
     }
     else
     {
