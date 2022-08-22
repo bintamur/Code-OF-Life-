@@ -4,21 +4,21 @@ int main()
 
 {
 
-    int strtTm, endTm, durationTm;
+    int startTm, endTm, durationTm;
 
-    scanf("%d %d", &strtTm, &endTm);
+    scanf("%d %d", &startTm, &endTm);
 
-    durationTm = endTm - strtTm;
+    durationTm = endTm - startTm;
 
     if (durationTm < 0)
 
     {
 
-        durationTm = 24 + (endTm - strtTm);
+        durationTm = 24 + (endTm - startTm);
 
     }
 
-    if (strtTm == endTm)
+    if (startTm == endTm)
 
     {
 
