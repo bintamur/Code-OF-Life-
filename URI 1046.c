@@ -4,21 +4,21 @@ int main()
 
 {
 
-    int startTm, endTm, durationTm;
+    int starttime, endtime, durationtime;
 
-    scanf("%d %d", &startTm, &endTm);
+    scanf("%d %d", &starttime, &endtime);
 
-    durationTm = endTm - startTm;
+    durationtime = endtime - starttime;
 
-    if (durationTm < 0)
+    if (durationtime < 0)
 
     {
 
-        durationTm = 24 + (endTm - startTm);
+        durationtime= 24 + (endtime - starttime);
 
     }
 
-    if (startTm == endTm)
+    if (starttime == endtime)
 
     {
 
@@ -27,6 +27,6 @@ int main()
     }
 
     else
-        printf("O JOGO DUROU %d HORA(S)\n", durationTm);
+        printf("O JOGO DUROU %d HORA(S)\n", durationtime);
         return 0;
 }
